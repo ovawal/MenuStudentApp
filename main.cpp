@@ -410,31 +410,3 @@ int main() {
     return 0;
 }
 
-/*  -----Project Summary------
-
-This C++ program is a menu-driven student grade application that allows users to manage student records, courses, 
-and grades. 
-
-Note: I could only submit three files in the assignment so confrim file paths are correct for the program to read and write to the files.
-It reads data from three files(course.dat, grade.dat and student.dat), provides various functionalities
- through a user-friendly menu, and saves changes back to the files(course.out, grade.out and student.out) 
- upon exiting.
-
-All the file paths are in the project directory.The program defines three main structures: Student, Course, 
-and Grade, to represent the respective entities.The program uses vectors to store lists of students, 
-courses, and grades in memory.
-
-_-----Use of Grok AI-----
-I used Grok AI to help me with the code loggic, create test scenarios and some debbugging. 
-AI helped me to figure out different logical operations that I had not firegured out on my own such as 
-validating user input, and handling different error scenarios.
-I also used Grok to create diffrent test scenarios to test my code and make sure it was working as expected.
-
-Grok helped mme realise what I was thinkiung about in my code logic such as the flow of the program and how 
-to structure my code.I also helped not to mix different functionalities in one function such as the 
-use of iostream and fstream in one function.
-
-This was my first c++ project so I used AI to understand different aspects of c++ code such which libraries ,
-are used read and write to files. Generally this project was a good learning experience for me as I got to understand how to
-use different data structures and file handling in C++.
-*/
